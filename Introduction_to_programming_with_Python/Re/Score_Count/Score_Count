@@ -1,0 +1,26 @@
+#in this programme we are bascially writing programme for score board of cricket match
+#we are taking input from user and then we are displaying the score board
+
+def score_count(n):
+    if n == 0:
+        print("No runs")
+    elif n == 1:
+        print("1 run")
+    else:
+        print(n, "runs")
+
+def main():
+    print("Enter the number of runs scored in each ball:")
+    runs = []
+    while True:
+        run = input()
+        if run == "":
+            break
+        runs.append(int(run))
+    total = 0
+    balls = 0
+    for run in runs:
+        total += run
+        balls += 1
+        score_count(run)
+    print("Total:", total, "runs in", balls, "balls")

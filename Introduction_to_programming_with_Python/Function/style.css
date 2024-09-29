@@ -1,0 +1,20 @@
+.outer{
+    width:700px;
+    height:900px;
+    border:1px solid black;
+    margin:0px auto;
+
+}
+.outer h2{
+    text-align: center;
+}
+.outer h4{
+    text-align:center;
+}
+.border{
+    background-color: rgb(200,200,200);
+    text-align: center;
+    width:98.5%;
+    padding:5px;
+    border:1px solid black;
+}
